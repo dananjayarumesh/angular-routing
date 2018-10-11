@@ -9,14 +9,14 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
 
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" routerLink="" routerLinkActive="active">Home</a>
+          <li class="nav-item" routerLinkActive="active"  [routerLinkActiveOptions]="{exact: true}">
+            <a class="nav-link" routerLink="/">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/features" routerLinkActive="active">Features</a>
+          <li class="nav-item" routerLinkActive="active"  [routerLinkActiveOptions]="{exact: true}">
+            <a class="nav-link" routerLink="/features">Features</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/contact-us" routerLinkActive="active">Contact Us</a>
+          <li class="nav-item" routerLinkActive="active"  [routerLinkActiveOptions]="{exact: true}">
+            <a class="nav-link" routerLink="/contact-us">Contact Us</a>
           </li>
         </ul>
 
